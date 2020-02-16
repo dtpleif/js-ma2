@@ -68,7 +68,7 @@ The callback function should log the value of the data attribute on each element
     <li data-animal="elephant">Animal 3</li>
 </ul>
 
-const liTags = document.querySelectorAll("#list li")
+const liTags = document.getElementsByTagName("LI");
  
 const callback = function callAfterButtonClick() {
     console.log(liTags);
