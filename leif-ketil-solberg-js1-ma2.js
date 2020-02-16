@@ -58,7 +58,7 @@ removeButtonClass.addEventListener("mouseout", removeClassOnMouseover());
 
 //Question 6
 
-Select all the li tags from the HTML below. Using a loop, add a mouseover event listener to each tag.
+/*Select all the li tags from the HTML below. Using a loop, add a mouseover event listener to each tag.
 
 The callback function should log the value of the data attribute on each element when the cursor moves over it.
 
@@ -66,7 +66,7 @@ The callback function should log the value of the data attribute on each element
     <li data-animal="goose">Animal 1</li>
     <li data-animal="frog">Animal 2</li>
     <li data-animal="elephant">Animal 3</li>
-</ul>
+</ul>*/
 
 const liTags = document.getElementsByTagName("LI");
  
